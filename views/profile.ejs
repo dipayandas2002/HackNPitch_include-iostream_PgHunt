@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="profile_style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/6e597438e3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+  <div class="card p-4" id="profile">
+    <div class=" image d-flex flex-column justify-content-center align-items-center"> <button class="new-btn "> <img
+          src="https://avatar.oxro.io/avatar.svg?name=<%=fname%>&length=2&background=38155c&rounded=100%&bold=true&caps=3"
+          height="100" width="100" /></button>
+      <span class="name mt-3">
+        <%= fname %>
+          <%= lname %>
+      </span> <span class="idd">PG owner</span>
+      <!--here type- student or PG owner-->
+      <div class="d-flex flex-row justify-content-center align-items-center mt-3"> <span class="number">
+          <%= email %>
+        </span> </div>
+      <div class="d-flex flex-row justify-content-center align-items-center mt-3"> <span class="number"> Phone Number:
+          <%= phonenumber %>
+        </span> </div>
+
+      <div class="text mt-3"> <span>Created Profile at PG Hunt. <br><br> Maintained by PG Hunt team </span> </div>
+      <div class="gap-3 mt-3 icons d-flex flex-row justify-content-center align-items-center"> <span><i
+            class="fa fa-twitter"></i></span> <span><i class="fa fa-facebook-f"></i></span> <span><i
+            class="fa fa-instagram"></i></span> <span><i class="fa fa-linkedin"></i></span> </div>
+
+
+      <div class=" px-2 rounded mt-4 date "> <span class="join">Joined May,2021</span> </div>
+
+
+      <a type="button" class="bf btn btn-danger" href="/login">
+        LOG OUT
+      </a>
+    </div>
+  </div>
+  <div id="existing-pg">
+    <div class="head-profile">
+      <%= element.Highlight %>
+    </div>
+
+    <!-- Shiv jyoti's part copy pasted -->
+
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <iframe src="<%= element.Location %>" width="100%" height="450" style="border: 0" allowfullscreen=""
+          loading="lazy"></iframe>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">
+            <%= element.Description %>
+          </p>
+
+          <div>
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Deposit Amount
+                <span class="badge badge-primary badge-pill">
+                 ₹ <%= element.Deposit %>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Distance in km
+                <span class="badge badge-primary badge-pill">
+                  <%= element.Distance %>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Notice Period
+                <span class="badge badge-primary badge-pill">
+                  <%= element.Notice %>
+                </span>
+              </li>
+            </ul>
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Food Availability
+                <span class="badge badge-primary badge-pill">
+                  <%= element.Food %>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Parking
+                <span class="badge badge-primary badge-pill">
+                  <%= element.Parking %>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Number of Beds
+                <span class="badge badge-primary badge-pill">
+                  <%= element.Availability %>
+                </span>
+              </li>
+            </ul>
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Preferred Tennants
+                <span class="badge badge-primary badge-pill">
+                  <%= element.Gender %>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Twin Sharing
+                <span class="badge badge-primary badge-pill">
+                  <%= element.Occupancy %>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Operating Since
+                <span class="badge badge-primary badge-pill">
+                  <%= element.Eastablished %>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shiv jyoti's part ends -->
+
+  </div>
+  <div id="edit-pg">
+    <div class="head-profile">Edit your PG</div>
+    <form class="row gx-3 gy-2 align-items-center" id="form-edit-pg" method="POST" action="/messowner">
+      <div class="col-mb-3">
+        <label for="formFile" class="form-label">Description</label>
+        <input type="text" class="form-control" id="" name="Description">
+      </div>
+      <div class="mb-3">
+        <label for="formFile" class="form-label">PG Image link</label>
+        <input class="form-control" type="text" id="">
+      </div>
+      <div class="mb-3">
+        <label for="formFile" class="form-label">Attach PG location link</label>
+        <input type="text" class="form-control" id="inputEmail4" placeholder="Embed from Google Maps" name="Location">
+      </div>
+      <div class="col-md-11">
+        <label for="inputEmail4" class="form-label">Provide PG Name</label>
+        <input type="text" class="form-control" id="inputEmail4" placeholder="Good PG" name="Highlight">
+      </div>
+      <div class="col-md-11">
+        <label for="inputEmail4" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputEmail4" placeholder="221B Baker Street" name="Address">
+      </div>
+      <div class="col-sm-4">
+        <label class="form-label" for="specificSizeSelect">Food</label>
+        <select class="form-select" id="specificSizeSelect" name="Food">
+          <option selected value="">Choose...</option>
+          <option value="veg">Veg</option>
+          <option value="Non-veg">Non-veg</option>
+        </select>
+      </div>
+      <div class="col-sm-4">
+        <label class="form-label" for="specificSizeSelect">Gender Allocation</label>
+        <select class="form-select" id="specificSizeSelect" name="Gender">
+          <option selected value="">Choose...</option>
+          <option value="Boys">Boys</option>
+          <option value="Girls">Girls</option>
+          <option value="Both">Both</option>
+        </select>
+      </div>
+      <div class="col-sm-4">
+        <label class="form-label" for="specificSizeSelect">Occupancy</label>
+        <select class="form-select" id="specificSizeSelect" name="Occupancy">
+          <option selected value="">Choose...</option>
+          <option value="single">single</option>
+          <option value="double">double</option>
+          <option value="triple">triple</option>
+        </select>
+      </div>
+      <div class="col-sm-3">
+        <label class="form-label" for="specificSizeSelect">Parking</label>
+        <select class="form-select" id="specificSizeSelect" name="Parking">
+          <option selected value="">Choose...</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+      <div class="col-sm-3">
+        <label for="inputEmail4" class="form-label">Notice Period(in months)</label>
+        <input type="text" class="form-control" id="inputEmail4" name="Notice">
+      </div>
+      <div class="col-sm-6">
+        <label for="inputEmail4" class="form-label">Distance from JU (in km)</label>
+        <input type="text" class="form-control" id="inputEmail4" name="Distance">
+      </div>
+      <div class="col-sm-6">
+        <label for="inputEmail4" class="form-label">Availability</label>
+        <input type="number" class="form-control" id="inputEmail4" name="Availability">
+      </div>
+      <div class="col-sm-3">
+        <label for="inputEmail4" class="form-label">Established Date</label>
+        <input type="text" class="form-control" id="inputEmail4" name="Eastablished">
+      </div>
+      <div class="col-sm-3">
+        <label for="inputEmail4" class="form-label">Deposit Amount</label>
+        <input type="text" class="form-control" id="inputEmail4" name="Deposit">
+      </div>
+      <div class="col-sm-4">
+        <label for="inputEmail4" class="form-label">Price</label>
+        <input type="text" class="form-control" id="inputEmail4" name="Price">
+      </div>
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Contact Number</label>
+        <input type="text" class="form-control" id="inputEmail4" name="Contact">
+      </div>
+
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

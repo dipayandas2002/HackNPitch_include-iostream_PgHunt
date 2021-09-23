@@ -1,0 +1,132 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.border-md {
+    border-width: 2px;
+}
+
+
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+    /* overflow-y: scroll; */
+    height: 100vh;
+   
+   
+}
+
+.form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+#issue{
+    color: red;
+    position: absolute;
+    /* border: 1px solid red; */
+    bottom: 124px;
+    right: 25%;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body .style{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 7px 13px #000000a3;
+    background-color: white;
+    padding: 3% 5px;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.text-color{
+    color: black;
+    
+
+}
+
+.img-edit{
+    max-width: 197%;
+    margin: 8px 1px 0px -12rem;
+}
+@media screen and (max-width: 1998px) {
+    .img-edit{
+        margin: 7px 1px 0px -12rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .img-edit{
+        max-width: 188%;
+        margin: 7px 1px 0px -7rem;
+    }
+}
+@media screen and (max-width: 770px) {
+    .img-edit{
+        max-width: 136%;
+        margin: 7px -16%;
+    }
+}
+@media screen and (max-width: 570px) {
+    body .style{
+        border-radius: 0px;
+    }
+}
+
+
+.container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+@media screen and (max-width :992px){
+    body{
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .img-fluid{
+        width: 215px;
+        position: relative;
+        bottom: 20px;
+        
+    }
+}
+

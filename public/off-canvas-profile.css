@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cardoff {
+    width: 350px;
+    background-color: #efefef;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+
+
+.new-btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* background-image: url(https://i.imgur.com/wvxPV9S.png); */
+    background-size: cover;
+    transition: all 0.5s
+}
+.new-btn img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.cardoff:hover .new-btn  {
+    transform: scale(1.25)
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.idd {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.idd1 {
+    font-size: 12px
+}
+
+.number {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.follow {
+    font-size: 12px;
+    font-weight: 500;
+    color: #444444
+}
+
+.btn1 {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #000;
+    color: #aeaeae;
+    font-size: 15px
+}
+
+.text span {
+    font-size: 13px;
+    color: #545454;
+    font-weight: 500
+}
+
+.icons i {
+    font-size: 19px
+}
+
+hr .new1 {
+    border: 1px solid
+}
+
+.join {
+    font-size: 14px;
+    color: #a0a0a0;
+    font-weight: bold
+}
+
+.date {
+    background-color: #ccc
+}
+
+.head-profile{
+    font-size: 40px;
+    text-align: center;
+}
+
+.offcanvas-body {
+    padding: 0rem 0rem 1rem 1rem;
+}
+
+#profile {
+    width: 100%;
+}
+#profilebtn{
+    position: relative;
+    right: 10px;
+    border-radius: 100%;
+    background-image: url("photos/user.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 44px;
+    width: 44px;
+    
+}
+.offcanvas{
+    width:fit-content;
+}
+.bf{
+    margin-top: 50px;
+}

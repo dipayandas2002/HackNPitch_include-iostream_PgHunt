@@ -1,0 +1,27 @@
+{
+  "name": "hp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "dipu",
+  "license": "ISC",
+  "engines": {
+    "node": "14.17.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "crypto-js": "^4.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "js-alert": "^1.0.4",
+    "mongoose": "^5.13.1",
+    "multer": "^1.4.3",
+    "sheetdb-node": "0.0.12",
+    "stripe": "^8.176.0"
+  }
+}

@@ -1,0 +1,180 @@
+.body{
+  /* overflow-y: scroll;
+   */
+  /* display: flex; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#pg_hunt_logo{
+  width: 9rem;
+    height: 7rem;
+    position: absolute;
+    top: -11px;
+    left: -25px;
+    z-index: 100;
+}
+.card-group {
+  margin: 20px;
+  
+}
+.card {
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.icons {
+  padding: 5px;
+}
+span {
+  margin: 10px;
+}
+.card-title {
+  color: #222831;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list-group {
+  float: left;
+  margin: 15px;
+}
+.contact-button {
+ 
+  margin: auto;
+  padding-left: 5px;
+  text-align: center;
+  
+}
+.bf {
+  margin: 10px;
+}
+.badgegrp{
+  padding-left: 1px;
+  position: relative;
+  left: -9px;
+}
+@media  (min-width: 576px){
+.my {
+    /* max-width: 500px; */
+    max-width: 95%;
+    margin: 1.75rem auto;
+}
+.contact-button{
+  text-align:left;
+}
+}
+iframe{
+  overflow: hidden;
+}
+img{
+  height:300px;
+  width: 200px;
+}
+.filter {
+  padding-top: 0.8%;
+  width: 60%;
+  margin-left: -32%;
+  padding-bottom: 0%;
+}
+.type-div {
+  margin: 10px;
+  float: left;
+}
+.distance-div,
+.food-div,
+.occupancy-div {
+  margin: 10px;
+  float: left;
+}
+.filter-button {
+  margin-bottom: 14%;
+  margin-top: 15%;
+  margin-left: 8%;
+  background-color: #6580d6;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#profilebtn{
+  position: absolute;
+  /* float: right; */
+  right: 27px;
+  top: 14px;
+  background-color: #fffcc9;
+}
+#filter-button{
+  display: none;
+}
+#form{
+  width: 11rem;
+  z-index: 10;
+  position: fixed;
+  top: 21vh;
+  left: 0px;
+  background: linear-gradient(90deg, rgba(251,176,63,1) 0%, rgba(252,70,177,1) 100%);
+  padding: 0px 0px;
+  font-weight: bold;
+  border-radius: 0px 25px 25px 0px;
+  box-shadow: 6px 3px 4px 0px #afa8a8de;
+}
+.offcanvas-body {
+  padding: 0px;
+}
+#form2{
+  width: 15rem;
+  z-index: 10;
+  position: fixed;
+  top: 1rem;
+  left: 0px;
+  background: linear-gradient(90deg, rgba(251,176,63,1) 0%, rgba(252,70,177,1) 100%);
+  padding: 0px 0px;
+  font-weight: bold;
+  border-radius: 0px 25px 25px 0px;
+  box-shadow: 6px 3px 4px 0px #afa8a8de;
+}
+@media screen and (max-width: 1315px) {
+  #form{
+    display: none;
+  }
+  #filter-button{
+    display: block;
+    z-index: 102;
+    position: fixed;
+    top: 19rem;
+    left: 0px;
+    border-radius: 0px 1rem 1rem 0px;
+  }
+  #filter-logo{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 1rem;
+  }
+  #form2 .filter{
+    padding-top: 0.8%;
+    width: 43%;
+    margin-left: -32%;
+    padding-bottom: 0%;
+  }
+  #form2{
+    top: 11%;
+  }
+}
+.inner-subheading{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
+  color: #ce93cc;
+}
+.inner-heading{
+  font-size: 48px;
+  font-family: 'Roboto Slab', serif;
+  color: #6dc1f3;
+}
+
+@media screen and (max-width: 975px) {
+  .welcome-heading{
+    width: 95%;
+    margin: 0px 5px;
+  }
+}
