@@ -32,9 +32,9 @@ Our aim is to build PG Hunt.
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 * [JavaScript](https://www.javascript.com/)
 * [Node JS](https://nodejs.org/en/)
-* [Mapbox](https://www.mapbox.com/)
 * [Bootstrap v5.0.2](https://getbootstrap.com/)
-
+* [Mongo DB](https://www.mongodb.com/)
+* [Sheets Db](https://sheetdb.io/)
 
 ### About Frontend and Backend
 
@@ -68,7 +68,8 @@ Open localhost:3000 in your browser to see the web page .
 
 
 ## Data Sources
-* [bla bla](https://www.bakwas.net/)
+* Data used are added by the PG owners themselves
+
 
 
 ## License
@@ -89,5 +90,5 @@ Ankur Manna - fill
 Krishnol Sen - fill
 
 
-Project Link: [bla bla](fill)
+Project Link: [PG HUNT](https://fathomless-mountain-60415.herokuapp.com/)
 
