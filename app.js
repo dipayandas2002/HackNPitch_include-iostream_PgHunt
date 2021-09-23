@@ -41,6 +41,11 @@ app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({ extended: false }))
 app.set('view engine', 'ejs')
 
+
+app.get('/',(req,res)=>{
+    res.render("intro")
+})
+
 app.get('/login', function (req, res) {
     res.render("login",{issues :null});
 
