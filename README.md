@@ -24,7 +24,7 @@
 
 ## About The Project
 
-Our aim to build PG HUNT is to help the students to find their mess/PG in the nearby regions of Jadavpur University . Not only the students but also the mess/PG owners can advertise their PGs at our site, and find customers more efficiently with our PG HUNT.
+Our aim to build PG Hunt, whose aim is to help the students find their required mess/PG in the nearby regions of Jadavpur University, by using various filters of their choice. In addition to this, the mess/PG owners can advertise their PGs at our site, and find customers more efficiently with via PG HUNT.
 
 ### Built With
 
@@ -71,12 +71,14 @@ Open the folder in any IDE , in the integrated terminal write the command given 
 ```sh
    node app.js
    ```
-You can also open the folder path in the powershell and write the same command as above to run the program.
 Open localhost:3000 in your browser to see the web page .
+
+You can also open the folder path in the powershell and write the same command as above to run the program.
+
 
 
 ## Data Sources
-* Data used are added by the PG owners themselves and are all real data .
+* Data used are added by the PG owners themselves and are all real data.
 
 
 
