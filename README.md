@@ -24,7 +24,7 @@
 
 ## About The Project
 
-Our aim to build PG HUNT is to help the students to find their mess/PG in the nearby regions of Jadavpur University . Not only the students but also the mess/PG owners can find customers more efficiently with our PG HUNT.
+Our aim to build PG HUNT is to help the students to find their mess/PG in the nearby regions of Jadavpur University . Not only the students but also the mess/PG owners can advertise their PGs at our site, and find customers more efficiently with our PG HUNT.
 
 ### Built With
 
@@ -40,6 +40,10 @@ Our aim to build PG HUNT is to help the students to find their mess/PG in the ne
 
 This is a NODE app . We have used EJS as our view engine . EXPRESS module is used for routing and rendering the EJS files .
 We have used Bootstrap. We have used MONGO DB as our database . For the mess details we have used GOOGLE SHEETS as our database and fetched the data using Sheet DB.
+
+### Host Website
+
+[PG HUNT](https://fathomless-mountain-60415.herokuapp.com/)
 
 ## Getting Started
 
@@ -93,6 +97,4 @@ Ankur Manna - suchitrak5plus@gmail.com
 
 Krishnol Sen - krishnolsen@gmail.com
 
-
-Project Link: [PG HUNT](https://fathomless-mountain-60415.herokuapp.com/)
 
