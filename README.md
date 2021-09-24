@@ -24,7 +24,7 @@
 
 ## About The Project
 
-Our aim is to build PG Hunt.
+Our aim to build PG HUNT is to help the students to find their mess/PG in the nearby regions of Jadavpur University . Not only the students but also the mess/PG owners can advertise their PGs at our site, and find customers more efficiently with our PG HUNT.
 
 ### Built With
 
@@ -34,12 +34,16 @@ Our aim is to build PG Hunt.
 * [Node JS](https://nodejs.org/en/)
 * [Bootstrap v5.0.2](https://getbootstrap.com/)
 * [Mongo DB](https://www.mongodb.com/)
-* [Sheets Db](https://sheetdb.io/)
+* [Sheet Db](https://sheetdb.io/)
 
 ### About Frontend and Backend
 
 This is a NODE app . We have used EJS as our view engine . EXPRESS module is used for routing and rendering the EJS files .
-We have used Bootstrap.
+We have used Bootstrap. We have used MONGO DB as our database . For the mess details we have used GOOGLE SHEETS as our database and fetched the data using Sheet DB.
+
+### Host Website
+
+[PG HUNT](https://fathomless-mountain-60415.herokuapp.com/)
 
 ## Getting Started
 
@@ -50,7 +54,7 @@ How to set up the project locally:-
 1. Install NODE JS from [https://nodejs.org/en/] 
 2. Clone the repo
    ```sh
-   git clone https://github.com/PiXeL99-eng/COVID-19_Project.git
+   git clone https://github.com/dipayandas2002/HackNPitch_include-iostream_PgHunt.git
    ```
 3. Install NPM packages
    ```sh
@@ -72,7 +76,7 @@ Open localhost:3000 in your browser to see the web page .
 
 
 ## Data Sources
-* Data used are added by the PG owners themselves
+* Data used are added by the PG owners themselves and are all real data .
 
 
 
@@ -87,12 +91,10 @@ Dipayan Das - dipayandas360@gmail.com
 
 Sayantan Kundu - sayantankundu02@gmail.com
 
-Shiv Jyoti Garai - fill
+Shiv Jyoti Garai - shivjyoti.garai@gmail.com 
 
-Ankur Manna - fill
+Ankur Manna - suchitrak5plus@gmail.com 
 
-Krishnol Sen - fill
+Krishnol Sen - krishnolsen@gmail.com
 
-
-Project Link: [PG HUNT](https://fathomless-mountain-60415.herokuapp.com/)
 
