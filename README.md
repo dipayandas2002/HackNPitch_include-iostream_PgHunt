@@ -22,9 +22,9 @@
 </details>
 
 
-## About The Project
+## About PG Hunt
 
-Our aim to build PG Hunt, whose aim is to help the students find their required mess/PG in the nearby regions of Jadavpur University, by using various filters of their choice. In addition to this, the mess/PG owners can advertise their PGs at our site, and find customers more efficiently with via PG HUNT.
+PG Hunt is an all-in-one website to help students find new rental homes in the nearby regions of Jadavpur University, by using a variety of filters of their choice. In addition to this, the mess/PG owners can advertise their PGs at our site, and find customers more efficiently via PG HUNT. The website can be accessed via any device: PC, Tablet or Mobile.
 
 ### Built With
 
