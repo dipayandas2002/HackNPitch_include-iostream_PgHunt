@@ -56,6 +56,10 @@ How to set up the project locally:-
    ```sh
    npm install
    ```
+4. Type 
+    ```sh
+    npm install mongoose@6.0.7 
+   ```
 
 ## Usage
 
