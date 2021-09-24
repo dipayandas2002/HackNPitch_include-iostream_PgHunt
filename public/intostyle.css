@@ -292,6 +292,7 @@ h4 {
   font-size: 1.5rem;
 }
 
+
 .features__icon {
   display: flex;
   align-items: center;
@@ -341,11 +342,22 @@ body .features {
 p{
   font-size: 1.8rem;
 }
+#feature-first{
+  margin-top: -13px
+}
 }
 
 @media screen and (max-width: 845px) {
   .features__img {
     width: 31rem;
+  }
+  #feature-first{
+    margin-top: -39px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #feature-first{
+    margin-top: -15rem;
   }
 }
 

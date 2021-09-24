@@ -141,13 +141,13 @@ nav{
     display: block;
     z-index: 102;
     position: fixed;
-    top: 19rem;
+    top: 17rem;
     left: 0px;
     border-radius: 0px 1rem 1rem 0px;
   }
   #filter-logo{
-    height: 4rem;
-    width: 4rem;
+    height: 2.5rem;
+    width: 2.5rem;
     border-radius: 1rem;
   }
   #form2 .filter{
@@ -164,12 +164,12 @@ nav{
   text-align: center;
   font-size: 30px;
   font-family: 'Roboto Slab', serif;
-  color: #ce93cc;
+  color: black;
 }
 .inner-heading{
   font-size: 48px;
   font-family: 'Roboto Slab', serif;
-  color: #6dc1f3;
+  color: #55a933;
 }
 
 @media screen and (max-width: 975px) {
