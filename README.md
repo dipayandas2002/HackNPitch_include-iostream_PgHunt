@@ -34,12 +34,12 @@ Our aim to build PG HUNT is to help the students to find their mess/PG in the ne
 * [Node JS](https://nodejs.org/en/)
 * [Bootstrap v5.0.2](https://getbootstrap.com/)
 * [Mongo DB](https://www.mongodb.com/)
-* [Sheets Db](https://sheetdb.io/)
+* [Sheet Db](https://sheetdb.io/)
 
 ### About Frontend and Backend
 
 This is a NODE app . We have used EJS as our view engine . EXPRESS module is used for routing and rendering the EJS files .
-We have used Bootstrap.
+We have used Bootstrap. We have used MONGO DB as our database . For the mess details we have used GOOGLE SHEETS as our database and fetched the data using Sheet DB.
 
 ## Getting Started
 
