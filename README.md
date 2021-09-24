@@ -87,11 +87,11 @@ Dipayan Das - dipayandas360@gmail.com
 
 Sayantan Kundu - sayantankundu02@gmail.com
 
-Shiv Jyoti Garai - fill
+Shiv Jyoti Garai - shivjyoti.garai@gmail.com 
 
-Ankur Manna - fill
+Ankur Manna - suchitrak5plus@gmail.com 
 
-Krishnol Sen - fill
+Krishnol Sen - krishnolsen@gmail.com
 
 
 Project Link: [PG HUNT](https://fathomless-mountain-60415.herokuapp.com/)
