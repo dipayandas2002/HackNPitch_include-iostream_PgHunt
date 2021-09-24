@@ -72,7 +72,7 @@ Open localhost:3000 in your browser to see the web page .
 
 
 ## Data Sources
-* Data used are added by the PG owners themselves
+* Data used are added by the PG owners themselves and are all real data .
 
 
 
