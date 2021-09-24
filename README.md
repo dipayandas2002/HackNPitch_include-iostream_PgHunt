@@ -24,7 +24,7 @@
 
 ## About The Project
 
-Our aim is to build PG Hunt.
+Our aim to build PG HUNT is to help the students to find their mess/PG in the nearby regions of Jadavpur University . Not only the students but also the mess/PG owners can find customers more efficiently with our PG HUNT.
 
 ### Built With
 
